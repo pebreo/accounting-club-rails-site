@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#aboutback {
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#fff;
+}
+
+div#about {
+	margin:0 auto;
+	width:876px;
+}
+
+img.pic {
+	padding: 5px;
+	border: solid 1px #D4D4D4;
+}
+
+td
+{
+vertical-align:top;
+}
+
+#format{
+	line-height:1.4;
+	margin-top:15px;
+	text-align:justify;	
+	margin-top:30px;
+}

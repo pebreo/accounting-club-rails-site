@@ -1,0 +1,35 @@
+<div id="aboutback">
+<div id="about" style="width:1000px;">
+<br>
+<br>
+
+<div id="sidebar" class="editable" style="width:320px;margin:0 auto;">
+<h4 style="margin: 0;"><strong>Join Our Mailing List</strong></h4>
+Get email alerts to upcoming events!
+<p>&nbsp;</p>
+
+<%= form_for :contact, url: contact_path do |f| %>
+  
+  <p style="margin-bottom: -2px; padding-top: 7px;"><label for="first_name">First Name: </label><br /> 
+  	<input style="height: 25px; border: 1px solid #00C; width: 150px; font-family: Verdana; font-size: 14px;" type="text" name="contact[first_name]" />
+</p><br />
+<p style="margin-bottom: -2px;"><label for="last_name">Last Name:</label><br /> 
+	<input style="height: 25px; border: 1px solid #00C; width: 150px; font-family: Verdana; font-size: 14px;" type="text" name="contact[last_name]" /></p>
+<p style="margin-bottom: -8px;"><label for="email"><br />Email:* </label><br /> 
+ 
+ <input id="email" style="height: 25px; border: 1px solid #00C; width: 150px; font-family: Verdana; font-size: 14px;"  type="text" name="contact[email]" /><span id="check" style="padding: 10px; top: 5px; position: relative;"> 
+  <p><br/>
+  <%= show_simple_captcha %>
+  </p>
+  <p>
+    <p><br /><input type="image" value="Submit" src="<%= asset_path('button.png') %>" /></p>
+  </p>
+<% end %>
+
+<p>&nbsp;</p>
+</div>    
+
+
+<br>
+</div>
+</div>

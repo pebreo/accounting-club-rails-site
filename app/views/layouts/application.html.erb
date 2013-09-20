@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.neiu.edu/~acctclub/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>">
+<title>NEIU Accounting Club</title>
+<link rel="stylesheet" type="text/css" href="<%= asset_path('layout.css') %>">
+<link rel="stylesheet" type="text/css" href="<%= asset_path('jquery_style.css') %>">
+<link rel="stylesheet" type="text/css" href="<%= asset_path('about.css') %>">
+
+<script type="text/javascript" async="" src="<%= asset_path('ga.js') %>"></script>
+<script type="text/javascript" src="<%= asset_path('javascript.js') %>"></script>
+
+<%= csrf_meta_tags %>
+
+</head>
+<body>
+
+<!--////////////////////header///////////////////////////////-->
+
+<div id="header"> 
+<div id="wrapper">	
+	<div style="float:right;">
+	<ul id="menu">
+    <li><a href="/about">About Us<span><img src="<%= asset_path('drop.png') %>"></span></a>
+    	<ul id="dropdown-about" style="visibility: visible;"><li><a href="/members">Members</a></li>
+        </ul></li>
+    <li><a href="/recruit">Recruiting<span><img src="<%= asset_path('drop.png') %>"></span></a>
+    	<ul id="dropdown-rec"><li><a href="/sponsors">Sponsorship</a></li>
+        </ul></li>
+    <li><a href="/events">Events</a></li>
+    <li><a href="/jobs">Job Postings</a></li>
+    <li><a href="/contact">Contact</a></li>
+	</ul>
+	</div> 
+
+	
+ <a href="/"><img style="margin-top:20px" src="<%= asset_path('logo.png') %>"></a>   
+<!-- <a href="./index_files/index.html"><img style="margin-top:20px" src="./index_files/logo.png"></a> -->
+    
+</div><!-- end wrapper -->
+</div><!-- end header -->
+
+<!-- ////////////////////contents///////////////////////////-->
+
+
+<%= yield %>
+
+
+<!--//////////////////////footer/////////////////////////////-->
+
+<div id="footer"> 
+<div id="footer2">
+	<table id="footer-table-spacing">
+	<tbody><tr><td id="left-column">
+    
+<h2 id="pagelime_develop" class="editable">Develop the Future</h2>
+			<p id="develop-the-future" class="editable">For more information on building a connection between your firm and Northeastern Illinois, please email dguillen@neiu.edu or visit the recruiting section of our website. Members of the accounting club are among the top students at our University. Help add something great to our education, so that in the future, we can add something great to your organization.</p>
+	</td>
+	<td id="right-column">
+    
+<h2 style="padding-bottom:5px;"><span id="change" class="editable">Connect</span></h2>
+
+			<li><a href="http://www.facebook.com/#!/groups/117435825071064/"><img src="<%= asset_path('fb.png') %>"></a></li><br>
+			<li><a href="http://www.linkedin.com/groups/NEIU-College-Business-Management-4332509"><img src="<%= asset_path('linkedin.png') %>"></a></li>
+
+	</td>
+	</tr></tbody></table>
+
+			<div id="legal" class="editable">Copyright (c) 2012 NEIU Accounting Club. All rights reserved.<br> Webmaster - Don Guillen Last Updated: Jan 2013</div><!-- end legal -->
+
+   </div><!-- end wrapper div -->
+</div><!-- end footer div -->
+
+</body></html>
