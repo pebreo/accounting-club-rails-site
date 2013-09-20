@@ -11,6 +11,6 @@ The source for the Northeastern Illinois University Accounting Club website.
 
 == How-to Run
 
-1. Clone to your harddrive
-2. Type: rails s
-3. Goto url: localhost:3000
+1. Type: git clone git@github.com:pebreo/accounting-club-rails-site.git
+2. Go to the directory and type: rails s
+3. Open browser to URL: localhost:3000
