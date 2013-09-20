@@ -9,3 +9,8 @@ The source for the Northeastern Illinois University Accounting Club website.
 * >= Rails 4.0.0
 
 
+== How-to Run
+
+1. Clone to your harddrive
+2. Type: rails s
+3. Goto url: localhost:3000
