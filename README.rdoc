@@ -1,6 +1,6 @@
 == Description
 The source for the Northeastern Illinois University Accounting Club website.
-* Implemented by Paul Ebreo
+* Implemented in Rails by Paul Ebreo
 * Designed by Don Guillen
 
 == Requirements
