@@ -9,6 +9,9 @@ The source for the Northeastern Illinois University Accounting Club website.
 * >= Rails 4.0.0
 
 
+== Screenshot
+.. image:: https://dl.dropboxusercontent.com/u/1693233/github/cookiecutter-flask-01.png
+
 == How-to Run
 
 1. Type: git clone git@github.com:pebreo/accounting-club-rails-site.git
