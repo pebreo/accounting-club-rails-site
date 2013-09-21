@@ -19,3 +19,8 @@ How-to Run
 1. Type: git clone git@github.com:pebreo/accounting-club-rails-site.git
 2. Go to the directory and type: rails s
 3. Open browser to URL: localhost:3000
+
+To-Do
+-----
+* Create Procfile for Heroku
+* Improve form validation on the Contact page
