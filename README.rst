@@ -13,6 +13,8 @@ Requirements
 Screenshot
 ----------
 .. image:: https://dl.dropboxusercontent.com/s/5yfdkmymiz10pkh/neiu-acctg-club-screenshot.PNG
+   :target: https://dl.dropboxusercontent.com/s/5yfdkmymiz10pkh/neiu-acctg-club-screenshot.PNG
+   :alt: Screenshot
 
 How-to Run
 ----------
