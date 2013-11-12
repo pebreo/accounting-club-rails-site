@@ -9,12 +9,10 @@ Requirements
 * >= Ruby 1.9.3
 * >= Rails 4.0.0
 
-
 Screenshot
 ----------
-.. image:: https://dl.dropboxusercontent.com/s/5yfdkmymiz10pkh/neiu-acctg-club-screenshot.PNG
-   :target: https://dl.dropboxusercontent.com/s/5yfdkmymiz10pkh/neiu-acctg-club-screenshot.PNG
-   :alt: Screenshot
+[![NEIU Acctg Club](https://dl.dropboxusercontent.com/s/5yfdkmymiz10pkh/neiu-acctg-club-screenshot.PNG)]()
+
 
 How-to Run
 ----------
